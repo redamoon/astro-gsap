@@ -11,7 +11,6 @@
   },
   "dependencies": {
     "@astrojs/check": "^0.3.1",
-    "@types/gsap": "^3.0.0",
     "astro": "^3.4.3",
     "gsap": "^3.12.2",
     "prettier": "^3.0.3",
