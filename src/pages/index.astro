@@ -180,7 +180,5 @@ interface Props {
 
 <script>
   import gsap from "gsap";
-
-  const Logo = document.querySelector<HTMLElement>(".astro-a");
-  gsap.to(Logo, { duration: 1.5, y: 32, repeat: -1, yoyo: true });
+  gsap.to(".astro-a", { duration: 1.5, y: 32, repeat: -1, yoyo: true });
 </script>
